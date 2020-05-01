@@ -20,7 +20,7 @@ Serial arduinoPort;
 // networking stuff
 Client c;
 
-String IP_ADDR = "10.79.103.125";
+String IP_ADDR = "10.79.10.125";
 int PORT = 31337;
 
 boolean editMode;
