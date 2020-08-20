@@ -132,7 +132,10 @@ The Arduino runs a sketch that accepts serial over the USB connection and transl
 
 **Raspberry Pi**
 
-*come back later*
+See [the_forest](https://github.com/phillipdavidstearns/the_forest) repo for examples of how this hardware setup was used to:
+
+* Visualize network broadcst traffic in real-time
+* Allow for local network control over TCP/IP
 
 **Arduino**
 
