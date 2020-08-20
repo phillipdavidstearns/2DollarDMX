@@ -43,17 +43,17 @@ The Solid State Relays are housed in a gutted and repurposed 8 outlet DJ power d
 * Serial pins are mapped as follows:
 
 ```
-Pin Name		CD4094		DB9
---------		------		---
-Q1				4			1
-Q2				5			2
-Q3				6			3
-Q4				7			4
-Q5				14			5
-Q6				13			6
-Q7				12			7
-Q8				11			8
-Ground			8			9
+Pin Name		CD4094  	DB9
+--------		------  	---
+Q1			4		1
+Q2			5		2
+Q3			6		3
+Q4			7		4
+Q5			14		5
+Q6			13		6
+Q7			12		7
+Q8			11		8
+Ground			8		9
 
 ``` 
 ![](images/2DollarDMX-3114.jpg)
