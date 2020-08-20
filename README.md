@@ -101,7 +101,8 @@ The Arduino runs a sketch that accepts serial over the USB connection and transl
 
 1. Create a project directory: `mkdir ~/my_project`
 1. Change to that directory: `cd ~/my_project`
-1. Clone this repository: `git clone https://github.com/phillipdavidstearns/2DollarDMX.git` 
+1. Clone this repository: `git clone https://github.com/phillipdavidstearns/2DollarDMX.git`
+1. To use the Processing controller, download and install [Processing 3](https://processing.org/download/).
 
 ### Raspberry Pi
 
@@ -134,8 +135,13 @@ The Arduino runs a sketch that accepts serial over the USB connection and transl
 
 See [the_forest](https://github.com/phillipdavidstearns/the_forest) repo for examples of how this hardware setup was used to:
 
-* Visualize network broadcst traffic in real-time
+* Visualize network broadcast traffic in real-time
 * Allow for local network control over TCP/IP
+
+Once [the_forest](https://github.com/phillipdavidstearns/the_forest) is installed on the Raspberry Pi:
+
+1. Start `the_forest.service`: `sudo systemctl start the_forest.service`
+1. Run the `controller.pde` Processing sketch in `.examples/processing/controller/` to control the lights. 
 
 **Arduino**
 
